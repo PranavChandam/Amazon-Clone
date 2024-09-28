@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amz.logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+  
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-address{
+    margin-left: 10px;
+}
+#del{
+    color: #cccccc;
+    font-size: 0.85rem ;
+    margin-left: 15px;
+}
+#ind{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    margin-left: 10px;
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-sicon{
+   
+    background-color:#febd68;
+    width: 50px;
+   font-size: 1.2rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-select{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    border: none;
+}
+#length{
+    width: 520px;
+    font-size: 1rem;
+
+}
+#HL{
+    font-size: 0.7rem;
+}
+#AL{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+    font-size: o.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+#C{
+    margin-top: 10px;
+}
+/* panel start */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-opt p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+      /* Hero-section */
+.hero-section{
+    background-image: url("amz-hero.jpg");
+   
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text{
+    color: black;
+    background-color: white;
+    margin-bottom: 50px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font: size 0.85rem;
+    width: 80%;
+}
+.hero-text a{
+   color:  #007185;
+   text-decoration: none;
+}
+     /* Shop-Section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+    
+.box{
+    height: 400px;
+    border: 2px solid black;
+   width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 1rem;
+} 
+.box1-img{
+    height: 300px;
+
+   background-size: cover;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    color: #007185;
+    text-decoration: none;
+}
+.box-content a:hover{
+    color: red;
+   text-decoration: underline;
+}
+  /* Footer!!!!!!! */
+  footer{
+    margin-top: 1rem;
+  }
+.foot-panel1{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ul p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.foot-panel3{
+    background-color:  #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    background-image: url("amz.logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+
+  
+}
